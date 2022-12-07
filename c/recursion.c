@@ -17,5 +17,4 @@ void draw(int count){
         printf("*");
     }
     printf("\n");
-    
 }
