@@ -30,3 +30,8 @@ int binarySearching(int arrayToSearch[], int numberToSearch,int start,int end){
         return -1;
     }
 }
+
+//! Tip -> get middle index and compare the element to search with it, 
+//!         if the element is greater than the middle one, change start and search again
+//!         if the element is less than the middle one, change end and search again
+//!         we need the array being sorted, start index, end index, and size of the array 

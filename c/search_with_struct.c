@@ -27,3 +27,5 @@ int main(void)
     }
     printf("Not Found!\n");
 }
+
+//! Tip -> have a find a way to import string.h and make string data type, and strcmp for string compare

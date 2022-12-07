@@ -23,3 +23,5 @@ int linear_search(int arrayToSearch[],int numberToSearch,int arraySize){
     }
     return -1;
 }
+
+//! Tip -> select the first element, and compare it with the ajdacent, and search the itme
