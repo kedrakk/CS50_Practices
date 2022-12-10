@@ -46,3 +46,5 @@ void printingArray(int arr[],int count)
     }
     printf("\n");
 }
+
+//! Tip- Swaping the addresses of the variables because the temp values used in swap function are only applied to the swap concept. The original values will be remained the same. So, it is required to swap the addresses of the variables not the real values.
