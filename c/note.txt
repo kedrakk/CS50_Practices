@@ -1,0 +1,4 @@
+1. Linear Search
+  - Searching element through array by looping the array and checking each elements one by one
+  - Worst case scenario ( can find only in the last index, or can't find at all) => O(n)
+  - Best case scenario (find immediately in the first index) => Ω(1)
