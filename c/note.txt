@@ -16,3 +16,11 @@
   - Leaving the highest number to the rightmost
   - Worst case scenario (the array is in reverse order, so we have to loop each index to each in the array) => O(n square)
   - Best case scenario (the array is in order already, so we have to loop only one time thorough the array) => Ω(n)
+  
+ 4. Selection Sort
+  - Looping through array and search for the smallest value
+  - Swap the index of the smallest value with the first index of the unsorted part(first for starter), now second index is the first index of unsorted part
+  - Repeat the process
+  - Worst case scenario (the process has to be repeated through the elements of the array) => O(n square)
+  - Best case scenario (the process has to be repeated through the elements of the array) => Ω(n square)
+  
