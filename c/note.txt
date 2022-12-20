@@ -1,4 +1,12 @@
 1. Linear Search
   - Searching element through array by looping the array and checking each elements one by one
   - Worst case scenario ( can find only in the last index, or can't find at all) => O(n)
-  - Best case scenario (find immediately in the first index) => Ω(1)
+  - Best case scenario (found immediately in the first index) => Ω(1)
+  
+ 2. Binary Search
+  - Searching element thorough sorted array using divide and conquer method
+  - Get first index and last index, get the middle index using those two, and compare with the target
+  - If target is not the same with the middle one and larger than the middle one, change the start index to the middle one plus one, and repeat the process
+  - If target is not the same with the middle one and smaller than the middle one, change the end index to the middle one minus one, and repeat the process
+  - Worst case scenario (can find only in the last flow, or can't fin at all) => O (log n)
+  - Best case scenario (found immediately in the first divide result) => Ω(1)
