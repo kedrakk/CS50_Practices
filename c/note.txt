@@ -24,3 +24,10 @@
   - Worst case scenario (the process has to be repeated through the elements of the array) => O(n square)
   - Best case scenario (the process has to be repeated through the elements of the array) => Ω(n square)
   
+ 5. Merge Sort
+  - Separting array in half after half to get the leftmost smallest one index, or two indexes sub arrays, and then compare one or two indexes in each    subarray, swap if the left one is bigger than the right one,
+  - Repeat the process for every sub arrays
+  - If all the sub arrays are sorted, merge them into bigger sub array, and repeat the process
+  - Worst case scenario (dividing and comparing has to be done for every indexes) => O (n log n)
+  - Best case scenario (all elements are sorted but it is required to make sure everything in in order) => Ω (n log n)
+  
