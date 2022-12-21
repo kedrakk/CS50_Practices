@@ -26,7 +26,7 @@
   
  5. Merge Sort
   - Separting array in half after half to get the leftmost smallest one index, or two indexes sub arrays, and then compare one or two indexes in each    subarray, swap if the left one is bigger than the right one,
-  - Repeat the process for every sub arrays
+  - Repeat the process for every sub arrays (main concept is recursion)
   - If all the sub arrays are sorted, merge them into bigger sub array, and repeat the process
   - Worst case scenario (dividing and comparing has to be done for every indexes) => O (n log n)
   - Best case scenario (all elements are sorted but it is required to make sure everything in in order) => Ω (n log n)
